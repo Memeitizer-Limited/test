@@ -1,50 +1,9 @@
 <!DOCTYPE html>
 <head>
-  <style>
-    body,html {
-  height: 100%;
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-}
-section /*the containing element to put the .background-video-container in*/ {
-  background-color: #121212;
-  opacity: 1;
-  height: 884px;
-  width: 576px;
-  overflow: hidden;
-  position: relative;
-
-}
-
-.background-video-container {
-  pointer-events: none;
-  z-index: 10;
-  position: absolute;
-  top: 0rem;
-  right: 0rem;
-  bottom: 0rem;
-  left: 0rem;
-  height: 100%;
-  width: 100%;
-}
-.background-video-container video {
-  /* background-image: url('*** Poster image goes here ***'); */
-  background-size: cover;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  width: auto;
-  position: absolute;
-  top: 50%;
-  right: 0rem;
-  bottom: 0rem;
-  left: 50%;
-}
- </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="light.css">
+	</noscript>
   
   </head>
 <body>
